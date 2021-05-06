@@ -1,0 +1,299 @@
+@font-face {
+  font-family: 'GmarketSansBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'paybooc-Medium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/paybooc-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ELAND_Choice_L';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/ELAND_Choice_L.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  min-width: 1200px;
+  background-color: black;
+}
+
+header{
+  width: 100%;
+  background-color: rgb(36, 36, 36);
+  min-width: 832px;
+  position: fixed;
+  z-index: 10;
+}
+
+nav {
+  margin: 0;
+  padding: 20px 0;
+}
+
+ul {
+  height: 50px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.list {
+  color: rgb(209, 209, 209);
+  display: inline-block;
+  margin: 12px 50px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Montserrat';
+}
+
+.list a{
+  text-decoration-line: none;
+}
+
+.list a:link{
+  color: rgb(209, 209, 209);
+}
+
+.list a:visited{
+  color: rgb(209, 209, 209);
+}
+
+.list a:hover{
+  color: aliceblue;
+}
+
+.welcome {
+  background-image: linear-gradient(to top,
+    rgba(0, 0, 0, 1) 5%,
+    rgba(0, 0, 0, 0.5) 25%,
+    rgba(0, 0, 0, 0.7) 40%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(0, 0, 0, 1) 75%,
+    rgba(0, 0, 0, 1) 100% ), 
+  url('images/greetbackground.jpg');
+  background-size: cover;
+  height: 800px;
+  width: 100vw;
+  max-width: 1280px;
+  max-height: 832px;
+  display: inline-block;
+  position: static;
+  margin-bottom: 100px;
+  top: 80px;
+}
+
+.greeting {
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  padding: 200px 30px;
+  min-width: 832px;
+}
+
+.greeting h1 {
+  font-size: 80px;
+  letter-spacing: 12px;
+  font-weight: 700;
+  font-family: 'paybooc-Medium';
+  animation: fadein 3s;
+}
+
+
+.greeting h2 {
+  font-weight: 400;
+  font-family: 'ELAND_Choice_L';
+  opacity: 0;
+  animation: fadein 3s forwards;
+  animation-delay: 1s;
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+
+.blank {
+  height: 150px;
+  margin: 0;
+}
+
+.division {
+  text-align: center;
+  width: 1000px;
+  height: 500px;
+  display: inline-block;
+  padding: 0;
+  margin-bottom: 80px;
+}
+
+.navbox {
+  max-width: 1280px;
+  width: 280px;
+  height: 100px;
+  text-align: center;
+  float: left;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+
+}
+
+.navbox h2{
+  color: rgb(209, 209, 209);
+  display: inline-block;
+  font-size: 40px;
+  margin: 0;
+}
+
+p {
+  color:white;
+}
+
+.container {
+  float: right;
+  margin: 0;
+  padding: 6px 0 0 0;
+  width: 700px;
+  height: 480px;
+}
+
+.container p{
+  font-family: 'ELAND_Choice_L';
+  font-size: 28px;
+  text-align: justify;
+  line-height: 130%;
+  margin: 0 0 10px 0;
+}
+
+span {
+  color: black;
+  font-family: 'ELAND_Choice_L';
+  background-color: hsla(0, 13%, 89%, 0.9);
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size:38px;
+}
+
+.division2 {
+  text-align: center;
+  width: 1000px;
+  height: 900px;
+  display: inline-block;
+  padding: 0;
+  margin-bottom: 80px;
+}
+
+.imgcontainer {
+  /* border: 1px solid red; */
+  float: right;
+  margin: 0;
+  padding: 6px 0 0 0;
+  width: 700px;
+  height: 680px;
+}
+
+img.f1{
+  margin-top: -10%;
+}
+
+img.game{
+  width: 285px;
+  margin-top: 50px;
+  border-radius: 30%;
+  overflow: hidden;
+}
+
+img.jazz{
+  width: 285px;
+  margin-top: 70px;
+  border-radius: 30%;
+  overflow: hidden;
+}
+
+img.html5{
+  height: 228px;
+}
+
+img.css3 {
+  height: 170px;
+  margin-top: 100px;
+}
+
+img.python {
+  height: 170px;
+  margin-top: 100px;
+}
+
+.division3 {
+  text-align: center;
+  width: 1000px;
+  height: 1000px;
+  display: inline-block;
+  padding: 0;
+  margin-bottom: 100px;
+}
+
+footer {
+  width: 100%;
+  height: 122px;
+  background-color: rgb(36, 36, 36);
+  min-width: 832px;
+  bottom: 0;
+}
+
+.contact {
+  text-align: right;
+}
+.contactlogo {
+  width: 40px;
+  font-size: 0;
+  display: inline-block;
+  margin-top: 40px;
+  margin-right: 30px;
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(332deg) brightness(97%) contrast(115%);
+}
+
+.contact a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.svglogo svg {
+  fill: white;
+  width: 45px;
+  height: 45px;
+  margin-right: 30px;
+}
+
+.toparrow {
+  position: relative;
+  margin-right: 20px;
+}
+
+.toparrow::after {
+  content: '';
+  width: 25px;
+  height: 25px;
+  border-top: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+  display: inline-block;
+  transform: rotate(315deg);
+}
